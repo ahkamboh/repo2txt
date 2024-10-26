@@ -51,4 +51,11 @@ If you encounter any problems or have ideas for new features, please [open an is
 
 ## License
 
-[Specify your license here, e.g., MIT, GPL, etc.]
+This project is licensed under the Creative Commons Attribution-NonCommercial 4.0 International License. This means you are free to share and adapt the material, under the following terms:
+
+- Attribution — You must give appropriate credit, provide a link to the license, and indicate if changes were made.
+- NonCommercial — You may not use the material for commercial purposes.
+
+For more details, see the [LICENSE](LICENSE) file or visit [Creative Commons BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/).
+
+Copyright (c) 2024 Ali Hamza Kamboh
