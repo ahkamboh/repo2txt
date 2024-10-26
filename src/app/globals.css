@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -7,15 +8,13 @@
   --foreground: #171717;
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
-}
+
 
 body {
-  color: var(--foreground);
-  background: var(--background);
-  font-family: Arial, Helvetica, sans-serif;
+
+  font-family: 'Poppins', sans-serif;
+  background-color: #ffffff;
+  background-size: 100% 100vh;
+  background-repeat: no-repeat;
+  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' version='1.1' xmlns:xlink='http://www.w3.org/1999/xlink' xmlns:svgjs='http://svgjs.dev/svgjs' width='1440' height='600' preserveAspectRatio='none' viewBox='0 0 1440 600'%3e%3cg mask='url(%26quot%3b%23SvgjsMask1048%26quot%3b)' fill='none'%3e%3cpath d='M4 600L604 0L1115.5 0L515.5 600z' fill='url(%26quot%3b%23SvgjsLinearGradient1049%26quot%3b)'%3e%3c/path%3e%3cpath d='M488.20000000000005 600L1088.2 0L1515.7 0L915.7 600z' fill='url(%26quot%3b%23SvgjsLinearGradient1049%26quot%3b)'%3e%3c/path%3e%3cpath d='M1356 600L756 0L145.5 0L745.5 600z' fill='url(%26quot%3b%23SvgjsLinearGradient1050%26quot%3b)'%3e%3c/path%3e%3cpath d='M947.8 600L347.79999999999995 0L17.799999999999955 0L617.8 600z' fill='url(%26quot%3b%23SvgjsLinearGradient1050%26quot%3b)'%3e%3c/path%3e%3cpath d='M1053.3778449594388 600L1440 213.37784495943873L1440 600z' fill='url(%26quot%3b%23SvgjsLinearGradient1049%26quot%3b)'%3e%3c/path%3e%3cpath d='M0 600L386.62215504056127 600L 0 213.37784495943873z' fill='url(%26quot%3b%23SvgjsLinearGradient1050%26quot%3b)'%3e%3c/path%3e%3c/g%3e%3cdefs%3e%3cmask id='SvgjsMask1048'%3e%3crect width='1440' height='600' fill='white'%3e%3c/rect%3e%3c/mask%3e%3clinearGradient x1='0%25' y1='100%25' x2='100%25' y2='0%25' id='SvgjsLinearGradient1049'%3e%3cstop stop-color='rgba(209%2c 213%2c 219%2c 0.34)' offset='0'%3e%3c/stop%3e%3cstop stop-opacity='0' stop-color='rgba(209%2c 213%2c 219%2c 0.34)' offset='0.66'%3e%3c/stop%3e%3c/linearGradient%3e%3clinearGradient x1='100%25' y1='100%25' x2='0%25' y2='0%25' id='SvgjsLinearGradient1050'%3e%3cstop stop-color='rgba(209%2c 213%2c 219%2c 0.34)' offset='0'%3e%3c/stop%3e%3cstop stop-opacity='0' stop-color='rgba(209%2c 213%2c 219%2c 0.34)' offset='0.66'%3e%3c/stop%3e%3c/linearGradient%3e%3c/defs%3e%3c/svg%3e");
 }
