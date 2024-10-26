@@ -1,8 +1,20 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Repo2Txt
+
+Repo2Txt is a Next.js-based web application that allows users to download the contents of a GitHub repository as a single text file. This tool is particularly useful for training Language Learning Models (LLMs) on repository-specific content.
+
+## Features
+
+- Fetch and display the directory structure of any public GitHub repository
+- Support for private repositories using GitHub Personal Access Tokens
+- Filter files by extension
+- Select specific files or entire directories for download
+- Download selected files as a single concatenated text file
+- Syntax highlighting for various programming languages
+- Responsive design for both desktop and mobile use
 
 ## Getting Started
 
-First, run the development server:
+To run the development server:
 
 ```bash
 npm run dev
@@ -14,23 +26,29 @@ pnpm dev
 bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Then open [http://localhost:3000](http://localhost:3000) in your browser to see the application.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## Usage
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+1. Enter a GitHub repository URL in the input field.
+2. (Optional) Enter a GitHub Personal Access Token for private repositories or increased API rate limits.
+3. Click "Fetch Directory Structure" to load the repository contents.
+4. Use the file tree to select which files you want to include.
+5. Filter files by extension using the checkboxes provided.
+6. Click "Download into txt" to generate and download a single text file with the contents of all selected files.
 
-## Learn More
+## Development
 
-To learn more about Next.js, take a look at the following resources:
+The main application logic is located in `src/app/page.tsx`. The project uses Next.js with TypeScript and Tailwind CSS for styling.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## Contributing
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+Contributions to Repo2Txt are welcome! If you'd like to contribute, feel free to submit a pull request.
 
-## Deploy on Vercel
+## Reporting Issues
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+If you encounter any problems or have ideas for new features, please [open an issue](https://github.com/ahkamboh/repo2txt/issues) on the GitHub repository.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+## License
+
+[Specify your license here, e.g., MIT, GPL, etc.]
